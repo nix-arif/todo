@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row mt-4">
+    <div class="col">
+        <h2>Add Item</h2>
+        <form class="form-inline" action="add_todo/" method="post">
+            <input type="text" class="form-control mb-2 mr-sm-2" name="content" placeholder="type here..">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div>
+</div>
+
+{% endblock content %}
